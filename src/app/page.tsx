@@ -115,7 +115,7 @@ export default function Portfolio() {
           </div>
           <div className="ml-auto flex items-center space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/vicenteDAnnunzio"
               target="_blank"
               rel="noreferrer"
               className="hover:text-purple-600 transition-colors duration-300"
@@ -334,7 +334,7 @@ export default function Portfolio() {
                           className="gap-1 group-hover:border-purple-300 group-hover:bg-purple-50 transition-colors duration-300 dark:group-hover:border-purple-700 dark:group-hover:bg-purple-900/20"
                           asChild
                         >
-                          <a href={project.github} target="_blank" rel="noreferrer">
+                          <a href="https://github.com/vicenteDAnnunzio/VicentePortfolio" target="_blank" rel="noreferrer">
                             <Github className="h-4 w-4" />
                             Code
                           </a>
@@ -389,7 +389,7 @@ export default function Portfolio() {
                   className="rounded-full hover:bg-purple-50 hover:border-purple-200 hover:text-purple-600 transition-all duration-300 dark:hover:bg-purple-900/20 dark:hover:border-purple-700"
                   asChild
                 >
-                  <a href="https://github.com" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/vicenteDAnnunzio" target="_blank" rel="noreferrer">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </a>

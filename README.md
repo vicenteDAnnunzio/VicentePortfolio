@@ -37,9 +37,8 @@ Follow these steps to get the project running locally on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/vicenteDAnnunzio/VicentePortfolio.git
     ```
-    *(Replace with your actual GitHub repository URL)*
 
 2.  **Navigate to the project directory:**
     ```bash
@@ -104,7 +103,7 @@ your-repo-name/
 
 - **Email:** [vicente.dannunzio17@gmail.com](mailto:vicente.dannunzio17@gmail.com)
 - **LinkedIn:** [https://www.linkedin.com/in/vicente-dannunzio-470463307](https://www.linkedin.com/in/vicente-dannunzio-470463307)
-- **GitHub:** [https://github.com/your-username](https://github.com/your-username) *(Replace with your actual GitHub profile URL)*
+- **GitHub:** [https://github.com/vicenteDAnnunzio](https://github.com/vicenteDAnnunzio)
 
 ## License
 
