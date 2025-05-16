@@ -138,18 +138,18 @@ export default function Portfolio() {
 
       <main className="container py-10">
         {/* Hero Section */}
-        <section id="hero" className="py-20 md:py-28 flex flex-col md:flex-row items-center gap-8 md:gap-16">
-          <div className="flex-1 space-y-4 animate-fade-in">
-            <div className="inline-block">
-              <span className="inline-flex items-center rounded-full bg-purple-100 px-3 py-1 text-sm font-medium text-purple-800 mb-4">
+        <section id="hero" className="py-8 md:py-28 flex flex-col md:flex-row items-center gap-8 md:gap-16">
+          <div className="flex-1 animate-fade-in self-start">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl bg-gradient-to-r from-purple-600 via-cyan-500 to-emerald-500 bg-clip-text text-transparent animate-gradient mt-0 mb-2">
+              Hi, I'm Vicente DAnnunzio
+            </h1>
+            <div className="inline-block mb-6 mt-4">
+              <span className="inline-flex items-center rounded-full bg-purple-100 px-3 py-1 text-sm font-medium text-purple-800">
                 Available for hire
               </span>
             </div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl bg-gradient-to-r from-purple-600 via-cyan-500 to-emerald-500 bg-clip-text text-transparent animate-gradient">
-              Hi, I'm Vicente DAnnunzio
-            </h1>
-            <h2 className="text-xl md:text-2xl text-slate-600 dark:text-slate-300">Software Developer & IT Student</h2>
-            <p className="text-slate-600 dark:text-slate-300 max-w-[600px]">
+            <h2 className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4">Software Developer & IT Student</h2>
+            <p className="text-slate-600 dark:text-slate-300 max-w-[600px] mb-6">
             IT student and developer experienced in tech support, admin management & web apps, passionate about driving innovation and efficiency.
             </p>
             <div className="flex gap-4 pt-4">
@@ -262,8 +262,8 @@ export default function Portfolio() {
                 tags: ["Next.js", "React", "Tailwind CSS"],
                 image: "/fotoportfolio.jpg",
                 color: "from-emerald-500 to-green-500",
-                github: "#",
-                demo: "#",
+                github: "https://github.com/vicenteDAnnunzio/VicentePortfolio",
+                demo: "#", // Need to update this later with deployed URL
                 comingSoon: false,
               },
               {
@@ -273,18 +273,6 @@ export default function Portfolio() {
               {
                 comingSoon: true,
                 color: "from-blue-300 to-cyan-300"
-              },
-              {
-                comingSoon: true,
-                color: "from-yellow-300 to-amber-300"
-              },
-              {
-                comingSoon: true,
-                color: "from-purple-300 to-violet-300"
-              },
-              {
-                comingSoon: true,
-                color: "from-teal-300 to-emerald-300"
               },
             ].map((project, index) => (
               <div
