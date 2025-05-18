@@ -267,12 +267,18 @@ export default function Portfolio() {
                 comingSoon: false,
               },
               {
-                comingSoon: true,
-                color: "from-pink-300 to-rose-300"
+                title: "MyGarage",
+                description: "An efficient parking management system for tracking vehicles in hotels or any facility.",
+                tags: ["Next.js", "React", "Tailwind CSS", "Shadcn/ui"],
+                image: "/MyGaragefoto.jpg", // Image file should be in the /public directory
+                color: "from-sky-500 to-indigo-500",
+                github: "https://github.com/vicenteDAnnunzio/mygarage-project.git",
+                demo: "https://mygarage-project.vercel.app/login",
+                comingSoon: false,
               },
               {
                 comingSoon: true,
-                color: "from-blue-300 to-cyan-300"
+                color: "from-pink-300 to-rose-300"
               },
             ].map((project, index) => (
               <div
@@ -293,13 +299,12 @@ export default function Portfolio() {
                   </div>
                 ) : (
                   <>
-                    <div className="aspect-video overflow-hidden relative z-10">
+                    <div className="w-full h-80 overflow-hidden relative z-10">
                       <Image
                         src={project.image || "/placeholder.svg"}
                         alt={project.title || "Project image"}
-                        width={600}
-                        height={400}
-                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                        fill
+                        className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
                       />
                     </div>
                     <div className="p-5 relative z-10">
