@@ -257,16 +257,6 @@ export default function Portfolio() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: "Portfolio Website",
-                description: "A modern, responsive portfolio website built with Next.js, React, and Tailwind CSS.",
-                tags: ["Next.js", "React", "Tailwind CSS"],
-                image: "/fotoportfolio.jpg",
-                color: "from-emerald-500 to-green-500",
-                github: "https://github.com/vicenteDAnnunzio/VicentePortfolio",
-                demo: "#", // Need to update this later with deployed URL
-                comingSoon: false,
-              },
-              {
                 title: "MyGarage",
                 description: "An efficient parking management system for tracking vehicles in hotels or any facility.",
                 tags: ["Next.js", "React", "TypeScript", "TailwindCSS", "Firebase"],
@@ -279,6 +269,10 @@ export default function Portfolio() {
               {
                 comingSoon: true,
                 color: "from-pink-300 to-rose-300"
+              },
+              {
+                comingSoon: true,
+                color: "from-yellow-300 to-orange-300"
               },
             ].map((project, index) => (
               <div
@@ -416,6 +410,17 @@ export default function Portfolio() {
               <Button className="mt-4 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
                 <a href="/D´Annunzio, Vicente - eCV.pdf" download="D´Annunzio, Vicente - eCV.pdf">
                   Download CV
+                </a>
+              </Button>
+
+              <Button
+                variant="outline"
+                className="mt-4 gap-1 border-purple-200 hover:border-purple-300 hover:bg-purple-50 transition-all duration-300 dark:border-slate-700 dark:hover:border-purple-700 dark:hover:bg-purple-900/20"
+                asChild
+              >
+                <a href="https://github.com/vicenteDAnnunzio/VicentePortfolio" target="_blank" rel="noreferrer">
+                  <Github className="h-4 w-4" />
+                  Source Code
                 </a>
               </Button>
             </div>
