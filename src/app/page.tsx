@@ -321,7 +321,7 @@ export default function Portfolio() {
                           className="gap-1 group-hover:border-purple-300 group-hover:bg-purple-50 transition-colors duration-300 dark:group-hover:border-purple-700 dark:group-hover:bg-purple-900/20"
                           asChild
                         >
-                          <a href="https://github.com/vicenteDAnnunzio/VicentePortfolio" target="_blank" rel="noreferrer">
+                          <a href={project.github} target="_blank" rel="noreferrer">
                             <Github className="h-4 w-4" />
                             Code
                           </a>

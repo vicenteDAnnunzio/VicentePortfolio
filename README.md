@@ -2,12 +2,6 @@
 
 A modern and responsive personal portfolio website built with Next.js, React, and Tailwind CSS. This portfolio serves as a platform to showcase my skills, projects, and contact information.
 
-## Demo
-
-Check out the live demo here: [https://your-portfolio-url.com](https://your-portfolio-url.com)
-
-*(Replace the link above with your actual deployed portfolio URL)*
-
 ## Features
 
 - Clean and modern design
