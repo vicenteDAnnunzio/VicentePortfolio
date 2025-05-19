@@ -172,7 +172,8 @@ export default function Portfolio() {
                 alt="Foto de perfil"
                 width={320}
                 height={320}
-                className="object-cover object-[center_top_30%] brightness-110 contrast-110"
+                className="absolute object-cover brightness-110 contrast-110"
+                style={{ top: '-30px', left: '50%', transform: 'translateX(-50%)' }}
                 priority
               />
             </div>
