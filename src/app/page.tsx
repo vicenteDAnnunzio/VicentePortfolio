@@ -269,7 +269,7 @@ export default function Portfolio() {
               {
                 title: "MyGarage",
                 description: "An efficient parking management system for tracking vehicles in hotels or any facility.",
-                tags: ["Next.js", "React", "Tailwind CSS", "Shadcn/ui"],
+                tags: ["Next.js", "React", "TypeScript", "TailwindCSS", "Firebase"],
                 image: "/MyGaragefoto.jpg", // Image file should be in the /public directory
                 color: "from-sky-500 to-indigo-500",
                 github: "https://github.com/vicenteDAnnunzio/mygarage-project.git",
