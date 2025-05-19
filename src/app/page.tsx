@@ -332,16 +332,18 @@ export default function Portfolio() {
                             Code
                           </a>
                         </Button>
-                        <Button
-                          size="sm"
-                          className="gap-1 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-700 hover:to-cyan-600 transition-all duration-300"
-                          asChild
-                        >
-                          <a href={project.demo} target="_blank" rel="noreferrer">
-                            <ExternalLink className="h-4 w-4" />
-                            Demo
-                          </a>
-                        </Button>
+                        {project.demo && project.title !== "Portfolio Website" && (
+                          <Button
+                            size="sm"
+                            className="gap-1 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-700 hover:to-cyan-600 transition-all duration-300"
+                            asChild
+                          >
+                            <a href={project.demo} target="_blank" rel="noreferrer">
+                              <ExternalLink className="h-4 w-4" />
+                              Demo
+                            </a>
+                          </Button>
+                        )}
                       </div>
                     </div>
                   </>
