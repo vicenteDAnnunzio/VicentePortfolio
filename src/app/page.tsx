@@ -367,7 +367,7 @@ export default function Portfolio() {
             <div className="flex flex-col items-center gap-6">
               <div className="flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-purple-600 transition-colors duration-300">
                 <Mail className="h-5 w-5" />
-                <a href="mailto:vicente.dannunzio17@gmail.com" className="hover:underline">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vicente.dannunzio17@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   vicente.dannunzio17@gmail.com
                 </a>
               </div>
@@ -401,7 +401,7 @@ export default function Portfolio() {
                   className="rounded-full hover:bg-purple-50 hover:border-purple-200 hover:text-purple-600 transition-all duration-300 dark:hover:bg-purple-900/20 dark:hover:border-purple-700"
                   asChild
                 >
-                  <a href="mailto:vicente.dannunzio17@gmail.com">
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vicente.dannunzio17@gmail.com" target="_blank" rel="noopener noreferrer">
                     <Mail className="h-5 w-5" />
                     <span className="sr-only">Email</span>
                   </a>
