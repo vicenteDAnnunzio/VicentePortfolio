@@ -393,24 +393,37 @@ export default function Portfolio() {
                     <span className="sr-only">LinkedIn</span>
                   </a>
                 </Button>
+                <Button
+                  variant="outline"
+                  size="icon"
+                  className="rounded-full hover:bg-purple-50 hover:border-purple-200 hover:text-purple-600 transition-all duration-300 dark:hover:bg-purple-900/20 dark:hover:border-purple-700"
+                  asChild
+                >
+                  <a href="mailto:vicente.dannunzio17@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <Mail className="h-5 w-5" />
+                    <span className="sr-only">Email</span>
+                  </a>
+                </Button>
               </div>
 
-              <Button className="mt-4 bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
-                <a href="/D´Annunzio, Vicente - eCV.pdf" download="D´Annunzio, Vicente - eCV.pdf">
-                  Download CV
-                </a>
-              </Button>
+              <div className="flex gap-4 mt-4">
+                <Button className="bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
+                  <a href="/D´Annunzio, Vicente - eCV.pdf" download="D´Annunzio, Vicente - eCV.pdf">
+                    Download CV
+                  </a>
+                </Button>
 
-              <Button
-                variant="outline"
-                className="mt-4 gap-1 border-purple-200 hover:border-purple-300 hover:bg-purple-50 transition-all duration-300 dark:border-slate-700 dark:hover:border-purple-700 dark:hover:bg-purple-900/20"
-                asChild
-              >
-                <a href="https://github.com/vicenteDAnnunzio/VicentePortfolio" target="_blank" rel="noreferrer">
-                  <Github className="h-4 w-4" />
-                  Source Code
-                </a>
-              </Button>
+                <Button
+                  variant="outline"
+                  className="gap-1 border-purple-200 hover:border-purple-300 hover:bg-purple-50 transition-all duration-300 dark:border-slate-700 dark:hover:border-purple-700 dark:hover:bg-purple-900/20"
+                  asChild
+                >
+                  <a href="https://github.com/vicenteDAnnunzio/VicentePortfolio" target="_blank" rel="noreferrer">
+                    <Github className="h-4 w-4" />
+                    Source Code
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </section>
