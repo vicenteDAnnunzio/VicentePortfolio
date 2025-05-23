@@ -365,11 +365,9 @@ export default function Portfolio() {
             </p>
 
             <div className="flex flex-col items-center gap-6">
-              <div className="flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-purple-600 transition-colors duration-300">
-                <Mail className="h-5 w-5" />
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vicente.dannunzio17@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  vicente.dannunzio17@gmail.com
-                </a>
+              <div className="flex items-center gap-3 text-slate-600 dark:text-slate-300 bg-white/50 dark:bg-slate-800/50 px-4 py-2 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-all duration-300">
+                <Mail className="h-5 w-5 text-purple-600" />
+                <span className="font-medium">vicente.dannunzio17@gmail.com</span>
               </div>
 
               <div className="flex gap-4">
@@ -393,17 +391,6 @@ export default function Portfolio() {
                   <a href="https://www.linkedin.com/in/vicente-dannunzio-470463307" target="_blank" rel="noreferrer">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
-                  </a>
-                </Button>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="rounded-full hover:bg-purple-50 hover:border-purple-200 hover:text-purple-600 transition-all duration-300 dark:hover:bg-purple-900/20 dark:hover:border-purple-700"
-                  asChild
-                >
-                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vicente.dannunzio17@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <Mail className="h-5 w-5" />
-                    <span className="sr-only">Email</span>
                   </a>
                 </Button>
               </div>
